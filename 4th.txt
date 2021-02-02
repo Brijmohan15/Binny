@@ -1,2 +1,14 @@
 CREATE USER 'jeffrey'@'localhost'
   IDENTIFIED BY 'new_password' PASSWORD EXPIRE;
+
+
+
+
+
+
+django-admin startproject User_Name
+cd User_Name
+py manage.py startapp myapp
+py manage.py makemigration
+py manage.py migrate
+py manage.py createsuperuser
